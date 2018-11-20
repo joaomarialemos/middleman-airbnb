@@ -6,16 +6,16 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title>Le Wagon - Middleman - About</title>
-    <link href="stylesheets/application-5f36bb9e.css" rel="stylesheet" />
-    <script src="javascripts/application-93de88c9.js"></script>
-    <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
+    <title></title>
+    <link href="../stylesheets/application-5f36bb9e.css" rel="stylesheet" />
+    <script src="../javascripts/application-93de88c9.js"></script>
+    <link href="../images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
   <body>
     <div class="navbar-wagon">
   <!-- Logo -->
   <a href="/" class="navbar-wagon-brand">
-    <img src="images/logo-acc9c0ec.png" alt="logo">
+    <img src="../images/logo-acc9c0ec.png" alt="logo">
   </a>
 
   <!-- Right Navigation -->
@@ -51,25 +51,51 @@
   </div>
 </div>
 
-    <div id="about">
-  <div class="about-content">
-    <h1>This template was built with <i class="fas fa-heart"></i> by</h1>
-    <ul class="list-inline">
-        <li>
-<a href="https://kitt.lewagon.com/alumni/carolinalemos" target="_blank">            <img src="https://kitt.lewagon.com/placeholder/users/carolinalemos" class="img-circle" alt="Carolinalemos" />
-</a>          <h2>Carolina Lemos</h2>
-          <p>
-<a href="https://github.com/carolinalemos" target="_blank">              <i class="fab fa-github"></i> carolinalemos
-</a>          </p>
-        </li>
-        <li>
-<a href="https://kitt.lewagon.com/alumni/joaomarialemos" target="_blank">            <img src="https://kitt.lewagon.com/placeholder/users/joaomarialemos" class="img-circle" alt="Joaomarialemos" />
-</a>          <h2>João Maria Lemos</h2>
-          <p>
-<a href="https://github.com/joaomarialemos" target="_blank">              <i class="fab fa-github"></i> joaomarialemos
-</a>          </p>
-        </li>
-    </ul>
+    <!-- source/flats/show.html.erb -->
+
+<!-- Access data.flats with owner's name as key -->
+
+<!-- Inject flat data in template -->
+
+
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://kitt.lewagon.com/placeholder/cities/london');">
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="ol-xs-12 col-sm-6 col-md-4">
+      <div class="hear">
+        <img src="https://kitt.lewagon.com/placeholder/users/monsieurpaillard" class="img-circle" alt="Monsieurpaillard" />
+        <p>Romain's home</p>
+        <h1>Nice flat in Piccadilly</h1>
+        <p>London, UK</p>
+        <p>5</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="ol-xs-12 col-sm-6 col-md-4">
+      <div class="form-ino">
+        <form class="form-inline">
+          <div class="form-group">
+            <input type="text" id="Location" class="form-control" placeholder="Where?">
+          </div>
+          <div class="form-group">
+            <input type="text" id="Date" class="form-control" placeholder="When?">
+          </div>
+          <div class="form-group">
+            <select id="guests" name=" " class="form-control input-md">
+              <option value="guest1">1 guest</option>
+              <option value="guest2">2 guest</option>
+              <option value="guest3">3 guest</option>
+            </select>
+          </div>
+          <button type="button" class="btn btn-primary">Search</button>
+        </form>
+      </div>
+    </div>
   </div>
 </div>
 
